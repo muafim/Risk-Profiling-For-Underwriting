@@ -1,0 +1,64 @@
+{
+  "models": [
+    {
+      "model": "Dummy stratified",
+      "accuracy": 0.4536491228070175,
+      "balanced_accuracy": 0.3254092928786533,
+      "macro_f1": 0.3253838704960047,
+      "weighted_f1": 0.4540693536183672,
+      "macro_precision": 0.3253776840011421,
+      "macro_recall": 0.3254092928786533
+    },
+    {
+      "model": "LightGBM core balanced",
+      "accuracy": 0.3532280701754386,
+      "balanced_accuracy": 0.3414706735245008,
+      "macro_f1": 0.3124709593144137,
+      "weighted_f1": 0.3837331353228876,
+      "macro_precision": 0.3379775367400746,
+      "macro_recall": 0.3414706735245008
+    },
+    {
+      "model": "LightGBM full balanced",
+      "accuracy": 0.3549122807017544,
+      "balanced_accuracy": 0.3315290708794257,
+      "macro_f1": 0.3086265918879618,
+      "weighted_f1": 0.3855043412222663,
+      "macro_precision": 0.3313852514732398,
+      "macro_recall": 0.3315290708794257
+    },
+    {
+      "model": "SMOTENC + LightGBM core",
+      "accuracy": 0.5993333333333334,
+      "balanced_accuracy": 0.3332748321717213,
+      "macro_f1": 0.2499006979796209,
+      "weighted_f1": 0.4493564433678962,
+      "macro_precision": 0.2553637022998994,
+      "macro_recall": 0.3332748321717213
+    },
+    {
+      "model": "Dummy majority",
+      "accuracy": 0.5994736842105263,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_f1": 0.2498628934956674,
+      "weighted_f1": 0.4493586879340503,
+      "macro_precision": 0.1998245614035087,
+      "macro_recall": 0.3333333333333333
+    },
+    {
+      "model": "LightGBM full unweighted",
+      "accuracy": 0.5994736842105263,
+      "balanced_accuracy": 0.3333333333333333,
+      "macro_f1": 0.2498628934956674,
+      "weighted_f1": 0.4493586879340503,
+      "macro_precision": 0.1998245614035087,
+      "macro_recall": 0.3333333333333333
+    }
+  ],
+  "referenceBalancedAccuracy": 0.3333333333333333,
+  "highestObservedBalancedAccuracy": {
+    "model": "LightGBM core balanced",
+    "value": 0.3414706735245008,
+    "distanceFromReference": 0.008137340191167464
+  }
+}

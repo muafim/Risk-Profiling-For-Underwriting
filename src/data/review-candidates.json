@@ -1,0 +1,3708 @@
+{
+  "candidateCount": 100,
+  "candidates": [
+    {
+      "rank": 1,
+      "maskedCustomerId": "CUST••7362",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.7114820635532082,
+      "coverageAmount": 13423.0,
+      "premiumAmount": 4719.83,
+      "deductible": 1623.32,
+      "previousClaims": 4,
+      "creditScore": 349,
+      "policyDuration": 1528,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.84,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.73,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "maskedCustomerId": "CUST••2162",
+      "riskProfile": "High",
+      "anomalyScore": 0.7103650888285167,
+      "coverageAmount": 12452.0,
+      "premiumAmount": 4913.59,
+      "deductible": 1649.4,
+      "previousClaims": 4,
+      "creditScore": 703,
+      "policyDuration": 1284,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 14.47,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 11.8,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "maskedCustomerId": "CUST••4565",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.707306918351325,
+      "coverageAmount": 12080.0,
+      "premiumAmount": 4670.56,
+      "deductible": 1838.42,
+      "previousClaims": 4,
+      "creditScore": 385,
+      "policyDuration": 428,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 14.16,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.62,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "maskedCustomerId": "CUST••3592",
+      "riskProfile": "High",
+      "anomalyScore": 0.7051245572519156,
+      "coverageAmount": 12159.0,
+      "premiumAmount": 2686.37,
+      "deductible": 1964.99,
+      "previousClaims": 4,
+      "creditScore": 532,
+      "policyDuration": 151,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 14.49,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.9,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Policy Duration",
+          "rawFeature": "Policy_Duration_Days",
+          "direction": "low",
+          "zScore": -1.75,
+          "label": "Policy Duration unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "maskedCustomerId": "CUST••5827",
+      "riskProfile": "High",
+      "anomalyScore": 0.704223033496051,
+      "coverageAmount": 12233.0,
+      "premiumAmount": 4673.9,
+      "deductible": 1655.42,
+      "previousClaims": 3,
+      "creditScore": 828,
+      "policyDuration": 379,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.99,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.06,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "maskedCustomerId": "CUST••1675",
+      "riskProfile": "High",
+      "anomalyScore": 0.7032195775250573,
+      "coverageAmount": 11754.0,
+      "premiumAmount": 4054.74,
+      "deductible": 1480.85,
+      "previousClaims": 2,
+      "creditScore": 330,
+      "policyDuration": 254,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.59,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 11.2,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "maskedCustomerId": "CUST••3806",
+      "riskProfile": "Low",
+      "anomalyScore": 0.7027497117402036,
+      "coverageAmount": 11936.0,
+      "premiumAmount": 3539.99,
+      "deductible": 1990.38,
+      "previousClaims": 4,
+      "creditScore": 334,
+      "policyDuration": 1564,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 14.97,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.76,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "maskedCustomerId": "CUST••7716",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.7021901090097089,
+      "coverageAmount": 14261.0,
+      "premiumAmount": 4794.9,
+      "deductible": 1778.89,
+      "previousClaims": 1,
+      "creditScore": 599,
+      "policyDuration": 812,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.26,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 11.08,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "maskedCustomerId": "CUST••3005",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.7017204231559778,
+      "coverageAmount": 10853.0,
+      "premiumAmount": 4207.65,
+      "deductible": 1668.04,
+      "previousClaims": 2,
+      "creditScore": 571,
+      "policyDuration": 178,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 14.2,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.76,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "maskedCustomerId": "CUST••3053",
+      "riskProfile": "Low",
+      "anomalyScore": 0.7012909775207272,
+      "coverageAmount": 10050.0,
+      "premiumAmount": 3614.11,
+      "deductible": 1412.94,
+      "previousClaims": 4,
+      "creditScore": 392,
+      "policyDuration": 207,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.14,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.55,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "maskedCustomerId": "CUST••7127",
+      "riskProfile": "Low",
+      "anomalyScore": 0.7007517705945673,
+      "coverageAmount": 10447.0,
+      "premiumAmount": 3663.36,
+      "deductible": 1861.46,
+      "previousClaims": 4,
+      "creditScore": 307,
+      "policyDuration": 240,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 16.02,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.8,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "maskedCustomerId": "CUST••6216",
+      "riskProfile": "High",
+      "anomalyScore": 0.700174041478541,
+      "coverageAmount": 10641.0,
+      "premiumAmount": 4728.29,
+      "deductible": 1491.92,
+      "previousClaims": 4,
+      "creditScore": 354,
+      "policyDuration": 1116,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 16.34,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.51,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "maskedCustomerId": "CUST••5185",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6997734435078978,
+      "coverageAmount": 13757.0,
+      "premiumAmount": 4687.73,
+      "deductible": 1873.62,
+      "previousClaims": 4,
+      "creditScore": 507,
+      "policyDuration": 1551,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.43,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.14,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "maskedCustomerId": "CUST••7521",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6992200575192393,
+      "coverageAmount": 18141.0,
+      "premiumAmount": 4959.55,
+      "deductible": 1760.68,
+      "previousClaims": 1,
+      "creditScore": 511,
+      "policyDuration": 1709,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.88,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 8.52,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Policy Duration",
+          "rawFeature": "Policy_Duration_Days",
+          "direction": "high",
+          "zScore": 1.83,
+          "label": "Policy Duration unusually high"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "maskedCustomerId": "CUST••6899",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6990371588743557,
+      "coverageAmount": 11680.0,
+      "premiumAmount": 4917.46,
+      "deductible": 1907.96,
+      "previousClaims": 0,
+      "creditScore": 814,
+      "policyDuration": 954,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 15.46,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 14.65,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "maskedCustomerId": "CUST••2736",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6990001557286958,
+      "coverageAmount": 16015.0,
+      "premiumAmount": 4789.13,
+      "deductible": 1893.6,
+      "previousClaims": 3,
+      "creditScore": 740,
+      "policyDuration": 700,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.85,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.48,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.71,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "maskedCustomerId": "CUST••4093",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6989962220841351,
+      "coverageAmount": 12989.0,
+      "premiumAmount": 4408.43,
+      "deductible": 1943.86,
+      "previousClaims": 4,
+      "creditScore": 507,
+      "policyDuration": 416,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.39,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.38,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "maskedCustomerId": "CUST••6619",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6985665413952303,
+      "coverageAmount": 13150.0,
+      "premiumAmount": 4524.22,
+      "deductible": 1955.54,
+      "previousClaims": 1,
+      "creditScore": 777,
+      "policyDuration": 1027,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.3,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.55,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "maskedCustomerId": "CUST••0313",
+      "riskProfile": "High",
+      "anomalyScore": 0.6981796947202051,
+      "coverageAmount": 10537.0,
+      "premiumAmount": 2393.01,
+      "deductible": 1946.12,
+      "previousClaims": 4,
+      "creditScore": 326,
+      "policyDuration": 625,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 16.63,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 8.14,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "maskedCustomerId": "CUST••5142",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.697880324320501,
+      "coverageAmount": 12021.0,
+      "premiumAmount": 4436.58,
+      "deductible": 1457.11,
+      "previousClaims": 3,
+      "creditScore": 324,
+      "policyDuration": 54,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.5,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.76,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Policy Duration",
+          "rawFeature": "Policy_Duration_Days",
+          "direction": "low",
+          "zScore": -1.97,
+          "label": "Policy Duration unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "maskedCustomerId": "CUST••7047",
+      "riskProfile": "Unlabeled",
+      "anomalyScore": 0.6971155418944341,
+      "coverageAmount": 14389.0,
+      "premiumAmount": 2609.51,
+      "deductible": 1767.37,
+      "previousClaims": 1,
+      "creditScore": 389,
+      "policyDuration": 109,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.91,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 6.41,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Policy Duration",
+          "rawFeature": "Policy_Duration_Days",
+          "direction": "low",
+          "zScore": -1.85,
+          "label": "Policy Duration unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "maskedCustomerId": "CUST••3365",
+      "riskProfile": "Low",
+      "anomalyScore": 0.696676432983453,
+      "coverageAmount": 13616.0,
+      "premiumAmount": 3142.29,
+      "deductible": 1615.7,
+      "previousClaims": 4,
+      "creditScore": 569,
+      "policyDuration": 297,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.52,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 8.27,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "maskedCustomerId": "CUST••3801",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6966399059278431,
+      "coverageAmount": 10485.0,
+      "premiumAmount": 4145.12,
+      "deductible": 1856.9,
+      "previousClaims": 3,
+      "creditScore": 532,
+      "policyDuration": 230,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 15.92,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 14.49,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "maskedCustomerId": "CUST••7604",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6945833742143723,
+      "coverageAmount": 10723.0,
+      "premiumAmount": 3211.27,
+      "deductible": 1978.37,
+      "previousClaims": 4,
+      "creditScore": 766,
+      "policyDuration": 836,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 16.61,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.87,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "maskedCustomerId": "CUST••2682",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6933692465762915,
+      "coverageAmount": 12072.0,
+      "premiumAmount": 4498.1,
+      "deductible": 1923.15,
+      "previousClaims": 1,
+      "creditScore": 650,
+      "policyDuration": 664,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 14.28,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.63,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "maskedCustomerId": "CUST••9216",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6931007182631692,
+      "coverageAmount": 13251.0,
+      "premiumAmount": 4508.39,
+      "deductible": 1639.07,
+      "previousClaims": 1,
+      "creditScore": 637,
+      "policyDuration": 282,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.41,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.99,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "maskedCustomerId": "CUST••6422",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6929888901650086,
+      "coverageAmount": 13055.0,
+      "premiumAmount": 4589.26,
+      "deductible": 1922.92,
+      "previousClaims": 3,
+      "creditScore": 496,
+      "policyDuration": 448,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.17,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.84,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "maskedCustomerId": "CUST••5352",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6927477367856272,
+      "coverageAmount": 10193.0,
+      "premiumAmount": 2798.5,
+      "deductible": 1888.61,
+      "previousClaims": 0,
+      "creditScore": 480,
+      "policyDuration": 1778,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 16.68,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.93,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Policy Duration",
+          "rawFeature": "Policy_Duration_Days",
+          "direction": "high",
+          "zScore": 1.99,
+          "label": "Policy Duration unusually high"
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "maskedCustomerId": "CUST••1490",
+      "riskProfile": "High",
+      "anomalyScore": 0.6925481168190176,
+      "coverageAmount": 13487.0,
+      "premiumAmount": 4674.95,
+      "deductible": 1919.4,
+      "previousClaims": 3,
+      "creditScore": 331,
+      "policyDuration": 1093,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.71,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.65,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "maskedCustomerId": "CUST••4152",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6924158946100046,
+      "coverageAmount": 13471.0,
+      "premiumAmount": 4877.58,
+      "deductible": 907.73,
+      "previousClaims": 0,
+      "creditScore": 819,
+      "policyDuration": 600,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.24,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 5.78,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 31,
+      "maskedCustomerId": "CUST••0634",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6923525509228071,
+      "coverageAmount": 10830.0,
+      "premiumAmount": 4758.34,
+      "deductible": 1518.69,
+      "previousClaims": 0,
+      "creditScore": 718,
+      "policyDuration": 524,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 16.16,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.52,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 32,
+      "maskedCustomerId": "CUST••2619",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6918742894801391,
+      "coverageAmount": 17819.0,
+      "premiumAmount": 3794.36,
+      "deductible": 1913.98,
+      "previousClaims": 0,
+      "creditScore": 831,
+      "policyDuration": 1643,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.48,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.6,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.7,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 33,
+      "maskedCustomerId": "CUST••1046",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6913423672748458,
+      "coverageAmount": 10790.0,
+      "premiumAmount": 4474.15,
+      "deductible": 1952.24,
+      "previousClaims": 3,
+      "creditScore": 728,
+      "policyDuration": 1055,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 16.28,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 15.22,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 34,
+      "maskedCustomerId": "CUST••9959",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6911807919497515,
+      "coverageAmount": 14584.0,
+      "premiumAmount": 3971.23,
+      "deductible": 1792.97,
+      "previousClaims": 1,
+      "creditScore": 603,
+      "policyDuration": 155,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.92,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.84,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Policy Duration",
+          "rawFeature": "Policy_Duration_Days",
+          "direction": "low",
+          "zScore": -1.74,
+          "label": "Policy Duration unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "maskedCustomerId": "CUST••6429",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6910988469023361,
+      "coverageAmount": 17108.0,
+      "premiumAmount": 4455.97,
+      "deductible": 1781.44,
+      "previousClaims": 3,
+      "creditScore": 839,
+      "policyDuration": 250,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.4,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.18,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.71,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 36,
+      "maskedCustomerId": "CUST••6160",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6909577000950275,
+      "coverageAmount": 14057.0,
+      "premiumAmount": 4698.41,
+      "deductible": 1202.69,
+      "previousClaims": 4,
+      "creditScore": 407,
+      "policyDuration": 1778,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.18,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.46,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Policy Duration",
+          "rawFeature": "Policy_Duration_Days",
+          "direction": "high",
+          "zScore": 1.99,
+          "label": "Policy Duration unusually high"
+        }
+      ]
+    },
+    {
+      "rank": 37,
+      "maskedCustomerId": "CUST••1617",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6908280114261711,
+      "coverageAmount": 10321.0,
+      "premiumAmount": 4493.42,
+      "deductible": 1622.31,
+      "previousClaims": 3,
+      "creditScore": 623,
+      "policyDuration": 329,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 16.01,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 14.08,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 38,
+      "maskedCustomerId": "CUST••6675",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6899126282849334,
+      "coverageAmount": 13602.0,
+      "premiumAmount": 2664.27,
+      "deductible": 1756.88,
+      "previousClaims": 0,
+      "creditScore": 481,
+      "policyDuration": 1611,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 11.49,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 6.96,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 39,
+      "maskedCustomerId": "CUST••2838",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.689470434201584,
+      "coverageAmount": 12532.0,
+      "premiumAmount": 4053.27,
+      "deductible": 1866.72,
+      "previousClaims": 0,
+      "creditScore": 340,
+      "policyDuration": 1227,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.32,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 11.78,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 40,
+      "maskedCustomerId": "CUST••5785",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6891991250102699,
+      "coverageAmount": 22018.0,
+      "premiumAmount": 4868.39,
+      "deductible": 1636.3,
+      "previousClaims": 4,
+      "creditScore": 820,
+      "policyDuration": 205,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.91,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 6.42,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.69,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 41,
+      "maskedCustomerId": "CUST••5451",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6890363553976834,
+      "coverageAmount": 11797.0,
+      "premiumAmount": 3998.03,
+      "deductible": 1826.04,
+      "previousClaims": 1,
+      "creditScore": 803,
+      "policyDuration": 540,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.86,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.36,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 42,
+      "maskedCustomerId": "CUST••3144",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6887062293144393,
+      "coverageAmount": 21789.0,
+      "premiumAmount": 4615.62,
+      "deductible": 1769.55,
+      "previousClaims": 3,
+      "creditScore": 836,
+      "policyDuration": 1557,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.56,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.06,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.69,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 43,
+      "maskedCustomerId": "CUST••9037",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6887026472295792,
+      "coverageAmount": 12503.0,
+      "premiumAmount": 2531.03,
+      "deductible": 1741.0,
+      "previousClaims": 4,
+      "creditScore": 429,
+      "policyDuration": 662,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.42,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.2,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 44,
+      "maskedCustomerId": "CUST••8955",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6884944550344776,
+      "coverageAmount": 10856.0,
+      "premiumAmount": 4591.73,
+      "deductible": 1612.6,
+      "previousClaims": 3,
+      "creditScore": 806,
+      "policyDuration": 594,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 15.54,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.28,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 45,
+      "maskedCustomerId": "CUST••7553",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6883362626291557,
+      "coverageAmount": 17612.0,
+      "premiumAmount": 4000.46,
+      "deductible": 1983.77,
+      "previousClaims": 3,
+      "creditScore": 367,
+      "policyDuration": 241,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.96,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 8.14,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.71,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 46,
+      "maskedCustomerId": "CUST••6248",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6883333006785471,
+      "coverageAmount": 12252.0,
+      "premiumAmount": 3673.6,
+      "deductible": 1651.96,
+      "previousClaims": 4,
+      "creditScore": 544,
+      "policyDuration": 828,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.02,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.88,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 47,
+      "maskedCustomerId": "CUST••7262",
+      "riskProfile": "High",
+      "anomalyScore": 0.6883145323410499,
+      "coverageAmount": 15659.0,
+      "premiumAmount": 3980.64,
+      "deductible": 1704.65,
+      "previousClaims": 0,
+      "creditScore": 415,
+      "policyDuration": 223,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.61,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.16,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.71,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 48,
+      "maskedCustomerId": "CUST••6818",
+      "riskProfile": "Low",
+      "anomalyScore": 0.688268563100353,
+      "coverageAmount": 11984.0,
+      "premiumAmount": 4502.44,
+      "deductible": 1655.73,
+      "previousClaims": 4,
+      "creditScore": 607,
+      "policyDuration": 856,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.75,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.32,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 49,
+      "maskedCustomerId": "CUST••4175",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6881566914037801,
+      "coverageAmount": 11455.0,
+      "premiumAmount": 4892.07,
+      "deductible": 1418.52,
+      "previousClaims": 2,
+      "creditScore": 684,
+      "policyDuration": 1426,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 15.69,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 11.0,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 50,
+      "maskedCustomerId": "CUST••8142",
+      "riskProfile": "Low",
+      "anomalyScore": 0.687786117346755,
+      "coverageAmount": 10681.0,
+      "premiumAmount": 3011.3,
+      "deductible": 1789.05,
+      "previousClaims": 2,
+      "creditScore": 723,
+      "policyDuration": 450,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 15.04,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.21,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 51,
+      "maskedCustomerId": "CUST••7600",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6875735870559221,
+      "coverageAmount": 12374.0,
+      "premiumAmount": 2400.59,
+      "deductible": 1315.92,
+      "previousClaims": 2,
+      "creditScore": 366,
+      "policyDuration": 1671,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.38,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 6.88,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Policy Duration",
+          "rawFeature": "Policy_Duration_Days",
+          "direction": "high",
+          "zScore": 1.74,
+          "label": "Policy Duration unusually high"
+        }
+      ]
+    },
+    {
+      "rank": 52,
+      "maskedCustomerId": "CUST••4595",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6875456266120744,
+      "coverageAmount": 11790.0,
+      "premiumAmount": 1942.15,
+      "deductible": 1667.25,
+      "previousClaims": 0,
+      "creditScore": 352,
+      "policyDuration": 1763,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.62,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 5.78,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Policy Duration",
+          "rawFeature": "Policy_Duration_Days",
+          "direction": "high",
+          "zScore": 1.95,
+          "label": "Policy Duration unusually high"
+        }
+      ]
+    },
+    {
+      "rank": 53,
+      "maskedCustomerId": "CUST••2265",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6874016720992484,
+      "coverageAmount": 11087.0,
+      "premiumAmount": 2518.33,
+      "deductible": 1971.89,
+      "previousClaims": 0,
+      "creditScore": 371,
+      "policyDuration": 329,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 15.99,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 8.14,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 54,
+      "maskedCustomerId": "CUST••8908",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6873368795768835,
+      "coverageAmount": 15685.0,
+      "premiumAmount": 4676.6,
+      "deductible": 1893.64,
+      "previousClaims": 3,
+      "creditScore": 333,
+      "policyDuration": 1045,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.82,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.71,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.71,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 55,
+      "maskedCustomerId": "CUST••8318",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6872123396241482,
+      "coverageAmount": 12823.0,
+      "premiumAmount": 4012.66,
+      "deductible": 1978.77,
+      "previousClaims": 2,
+      "creditScore": 400,
+      "policyDuration": 509,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.82,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 11.38,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 56,
+      "maskedCustomerId": "CUST••9220",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6869971013110324,
+      "coverageAmount": 10298.0,
+      "premiumAmount": 4537.09,
+      "deductible": 1728.14,
+      "previousClaims": 4,
+      "creditScore": 529,
+      "policyDuration": 513,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 16.2,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 15.07,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 57,
+      "maskedCustomerId": "CUST••1046",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6869794791431233,
+      "coverageAmount": 14322.0,
+      "premiumAmount": 4821.71,
+      "deductible": 1768.22,
+      "previousClaims": 1,
+      "creditScore": 373,
+      "policyDuration": 674,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.28,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.96,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 58,
+      "maskedCustomerId": "CUST••1004",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6867346980158343,
+      "coverageAmount": 12404.0,
+      "premiumAmount": 2454.73,
+      "deductible": 1697.64,
+      "previousClaims": 4,
+      "creditScore": 844,
+      "policyDuration": 959,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.2,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.03,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 59,
+      "maskedCustomerId": "CUST••8729",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6866220484659319,
+      "coverageAmount": 19171.0,
+      "premiumAmount": 3971.13,
+      "deductible": 1725.43,
+      "previousClaims": 2,
+      "creditScore": 616,
+      "policyDuration": 1634,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.87,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.38,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.7,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 60,
+      "maskedCustomerId": "CUST••0031",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6864810784816269,
+      "coverageAmount": 13171.0,
+      "premiumAmount": 3482.42,
+      "deductible": 1547.99,
+      "previousClaims": 1,
+      "creditScore": 312,
+      "policyDuration": 773,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.42,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.54,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 61,
+      "maskedCustomerId": "CUST••4917",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6864438938171382,
+      "coverageAmount": 10296.0,
+      "premiumAmount": 4542.97,
+      "deductible": 1960.9,
+      "previousClaims": 1,
+      "creditScore": 324,
+      "policyDuration": 852,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 17.16,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 16.23,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 62,
+      "maskedCustomerId": "CUST••1273",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6863926426328731,
+      "coverageAmount": 18479.0,
+      "premiumAmount": 4589.2,
+      "deductible": 1795.47,
+      "previousClaims": 0,
+      "creditScore": 384,
+      "policyDuration": 449,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 8.94,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 8.53,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.7,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 63,
+      "maskedCustomerId": "CUST••5624",
+      "riskProfile": "Unlabeled",
+      "anomalyScore": 0.6863795577803049,
+      "coverageAmount": 18127.0,
+      "premiumAmount": 4293.39,
+      "deductible": 1688.72,
+      "previousClaims": 3,
+      "creditScore": 314,
+      "policyDuration": 152,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 8.5,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 8.16,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Policy Duration",
+          "rawFeature": "Policy_Duration_Days",
+          "direction": "low",
+          "zScore": -1.75,
+          "label": "Policy Duration unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 64,
+      "maskedCustomerId": "CUST••6571",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6860568187456126,
+      "coverageAmount": 15043.0,
+      "premiumAmount": 4512.56,
+      "deductible": 805.84,
+      "previousClaims": 0,
+      "creditScore": 792,
+      "policyDuration": 1786,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.89,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 4.5,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Policy Duration",
+          "rawFeature": "Policy_Duration_Days",
+          "direction": "high",
+          "zScore": 2.01,
+          "label": "Policy Duration unusually high"
+        }
+      ]
+    },
+    {
+      "rank": 65,
+      "maskedCustomerId": "CUST••7229",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6858430476786346,
+      "coverageAmount": 10277.0,
+      "premiumAmount": 2367.16,
+      "deductible": 1755.16,
+      "previousClaims": 0,
+      "creditScore": 374,
+      "policyDuration": 962,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 15.34,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 8.26,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 66,
+      "maskedCustomerId": "CUST••3228",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6858098231173394,
+      "coverageAmount": 11641.0,
+      "premiumAmount": 4164.57,
+      "deductible": 1744.9,
+      "previousClaims": 4,
+      "creditScore": 677,
+      "policyDuration": 755,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.41,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.07,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 67,
+      "maskedCustomerId": "CUST••6191",
+      "riskProfile": "Low",
+      "anomalyScore": 0.685688466438332,
+      "coverageAmount": 15560.0,
+      "premiumAmount": 4755.2,
+      "deductible": 1694.29,
+      "previousClaims": 0,
+      "creditScore": 643,
+      "policyDuration": 920,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 11.1,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.62,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.71,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 68,
+      "maskedCustomerId": "CUST••7995",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6855843102452874,
+      "coverageAmount": 15519.0,
+      "premiumAmount": 4978.16,
+      "deductible": 1992.33,
+      "previousClaims": 1,
+      "creditScore": 553,
+      "policyDuration": 1061,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 11.68,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 11.42,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium Amount",
+          "rawFeature": "Premium Amount",
+          "direction": "high",
+          "zScore": 1.72,
+          "label": "Premium Amount unusually high"
+        }
+      ]
+    },
+    {
+      "rank": 69,
+      "maskedCustomerId": "CUST••9563",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6855794410349837,
+      "coverageAmount": 11188.0,
+      "premiumAmount": 2878.29,
+      "deductible": 1263.88,
+      "previousClaims": 4,
+      "creditScore": 493,
+      "policyDuration": 193,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.99,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.28,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 70,
+      "maskedCustomerId": "CUST••5936",
+      "riskProfile": "Low",
+      "anomalyScore": 0.685566784234782,
+      "coverageAmount": 13556.0,
+      "premiumAmount": 3854.32,
+      "deductible": 1353.87,
+      "previousClaims": 4,
+      "creditScore": 585,
+      "policyDuration": 1626,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.3,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 8.78,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 71,
+      "maskedCustomerId": "CUST••8498",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6854866945179052,
+      "coverageAmount": 10045.0,
+      "premiumAmount": 4474.03,
+      "deductible": 1677.61,
+      "previousClaims": 2,
+      "creditScore": 839,
+      "policyDuration": 977,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 16.38,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 14.99,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 72,
+      "maskedCustomerId": "CUST••8578",
+      "riskProfile": "High",
+      "anomalyScore": 0.6854425132835612,
+      "coverageAmount": 11570.0,
+      "premiumAmount": 2426.94,
+      "deductible": 1837.71,
+      "previousClaims": 0,
+      "creditScore": 398,
+      "policyDuration": 262,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 14.24,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.48,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 73,
+      "maskedCustomerId": "CUST••5287",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6852419453283054,
+      "coverageAmount": 17911.0,
+      "premiumAmount": 4303.12,
+      "deductible": 1795.69,
+      "previousClaims": 4,
+      "creditScore": 752,
+      "policyDuration": 1104,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 8.82,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 8.63,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.7,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 74,
+      "maskedCustomerId": "CUST••4807",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6849416649425494,
+      "coverageAmount": 11513.0,
+      "premiumAmount": 2949.75,
+      "deductible": 1684.62,
+      "previousClaims": 4,
+      "creditScore": 753,
+      "policyDuration": 740,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.08,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.24,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 75,
+      "maskedCustomerId": "CUST••4396",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6848457086545878,
+      "coverageAmount": 15524.0,
+      "premiumAmount": 2939.08,
+      "deductible": 1620.08,
+      "previousClaims": 4,
+      "creditScore": 820,
+      "policyDuration": 203,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.2,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 6.71,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.71,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 76,
+      "maskedCustomerId": "CUST••9983",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6848085721718128,
+      "coverageAmount": 20953.0,
+      "premiumAmount": 4570.84,
+      "deductible": 1734.27,
+      "previousClaims": 3,
+      "creditScore": 799,
+      "policyDuration": 243,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.8,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.2,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.69,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 77,
+      "maskedCustomerId": "CUST••5698",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6847933153949723,
+      "coverageAmount": 11232.0,
+      "premiumAmount": 3645.21,
+      "deductible": 1823.59,
+      "previousClaims": 0,
+      "creditScore": 778,
+      "policyDuration": 450,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 14.56,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 11.82,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 78,
+      "maskedCustomerId": "CUST••4165",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6846023441202935,
+      "coverageAmount": 11376.0,
+      "premiumAmount": 2791.12,
+      "deductible": 1933.74,
+      "previousClaims": 4,
+      "creditScore": 452,
+      "policyDuration": 881,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 15.27,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 8.82,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 79,
+      "maskedCustomerId": "CUST••2139",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6844713227028898,
+      "coverageAmount": 16199.0,
+      "premiumAmount": 4331.06,
+      "deductible": 1992.99,
+      "previousClaims": 2,
+      "creditScore": 738,
+      "policyDuration": 941,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.92,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.66,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible",
+          "rawFeature": "Deductible",
+          "direction": "high",
+          "zScore": 1.71,
+          "label": "Deductible unusually high"
+        }
+      ]
+    },
+    {
+      "rank": 80,
+      "maskedCustomerId": "CUST••5429",
+      "riskProfile": "Unlabeled",
+      "anomalyScore": 0.6844672606838231,
+      "coverageAmount": 10218.0,
+      "premiumAmount": 3965.75,
+      "deductible": 1416.79,
+      "previousClaims": 0,
+      "creditScore": 685,
+      "policyDuration": 1105,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 14.22,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.37,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 81,
+      "maskedCustomerId": "CUST••1415",
+      "riskProfile": "Unlabeled",
+      "anomalyScore": 0.6842328518615378,
+      "coverageAmount": 17821.0,
+      "premiumAmount": 4974.88,
+      "deductible": 1862.24,
+      "previousClaims": 3,
+      "creditScore": 319,
+      "policyDuration": 994,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.1,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.21,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium Amount",
+          "rawFeature": "Premium Amount",
+          "direction": "high",
+          "zScore": 1.71,
+          "label": "Premium Amount unusually high"
+        }
+      ]
+    },
+    {
+      "rank": 82,
+      "maskedCustomerId": "CUST••4926",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6840258822358775,
+      "coverageAmount": 11067.0,
+      "premiumAmount": 4520.13,
+      "deductible": 672.25,
+      "previousClaims": 4,
+      "creditScore": 304,
+      "policyDuration": 1648,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 14.99,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 5.16,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 83,
+      "maskedCustomerId": "CUST••9431",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6840228565509928,
+      "coverageAmount": 14960.0,
+      "premiumAmount": 4562.61,
+      "deductible": 1860.96,
+      "previousClaims": 3,
+      "creditScore": 401,
+      "policyDuration": 957,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 11.08,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 11.05,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.71,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 84,
+      "maskedCustomerId": "CUST••9142",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6839285222126071,
+      "coverageAmount": 16258.0,
+      "premiumAmount": 4872.17,
+      "deductible": 1828.84,
+      "previousClaims": 4,
+      "creditScore": 590,
+      "policyDuration": 667,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.88,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.95,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.71,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 85,
+      "maskedCustomerId": "CUST••2574",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6839229900731144,
+      "coverageAmount": 10209.0,
+      "premiumAmount": 4025.87,
+      "deductible": 919.29,
+      "previousClaims": 0,
+      "creditScore": 331,
+      "policyDuration": 1030,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 14.46,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.87,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 86,
+      "maskedCustomerId": "CUST••9481",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6836754425462441,
+      "coverageAmount": 11500.0,
+      "premiumAmount": 2865.0,
+      "deductible": 1791.83,
+      "previousClaims": 0,
+      "creditScore": 672,
+      "policyDuration": 1503,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.96,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 8.97,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 87,
+      "maskedCustomerId": "CUST••7773",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6835711207346136,
+      "coverageAmount": 12486.0,
+      "premiumAmount": 2440.93,
+      "deductible": 1688.17,
+      "previousClaims": 1,
+      "creditScore": 442,
+      "policyDuration": 1576,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.05,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 6.94,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 88,
+      "maskedCustomerId": "CUST••8123",
+      "riskProfile": "High",
+      "anomalyScore": 0.6835543161639613,
+      "coverageAmount": 12727.0,
+      "premiumAmount": 3819.72,
+      "deductible": 1608.98,
+      "previousClaims": 3,
+      "creditScore": 754,
+      "policyDuration": 853,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 11.24,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.89,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 89,
+      "maskedCustomerId": "CUST••4801",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6835075751972728,
+      "coverageAmount": 13914.0,
+      "premiumAmount": 3606.56,
+      "deductible": 1344.82,
+      "previousClaims": 1,
+      "creditScore": 336,
+      "policyDuration": 1001,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.35,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 8.49,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 90,
+      "maskedCustomerId": "CUST••1687",
+      "riskProfile": "Low",
+      "anomalyScore": 0.683409657353015,
+      "coverageAmount": 11889.0,
+      "premiumAmount": 4233.67,
+      "deductible": 1887.64,
+      "previousClaims": 3,
+      "creditScore": 465,
+      "policyDuration": 1580,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 14.23,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 13.01,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 91,
+      "maskedCustomerId": "CUST••7274",
+      "riskProfile": "Medium",
+      "anomalyScore": 0.6832991577021953,
+      "coverageAmount": 11646.0,
+      "premiumAmount": 2494.0,
+      "deductible": 1952.66,
+      "previousClaims": 3,
+      "creditScore": 772,
+      "policyDuration": 410,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 15.05,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.65,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 92,
+      "maskedCustomerId": "CUST••6641",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6829954800149134,
+      "coverageAmount": 12956.0,
+      "premiumAmount": 3744.62,
+      "deductible": 972.96,
+      "previousClaims": 4,
+      "creditScore": 789,
+      "policyDuration": 341,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.48,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 6.49,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 93,
+      "maskedCustomerId": "CUST••1674",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6829338731979832,
+      "coverageAmount": 27824.0,
+      "premiumAmount": 4795.76,
+      "deductible": 1973.0,
+      "previousClaims": 3,
+      "creditScore": 807,
+      "policyDuration": 91,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 6.1,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 6.07,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Policy Duration",
+          "rawFeature": "Policy_Duration_Days",
+          "direction": "low",
+          "zScore": -1.89,
+          "label": "Policy Duration unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 94,
+      "maskedCustomerId": "CUST••0917",
+      "riskProfile": "Unlabeled",
+      "anomalyScore": 0.6829086366022797,
+      "coverageAmount": 22092.0,
+      "premiumAmount": 4824.72,
+      "deductible": 1446.31,
+      "previousClaims": 0,
+      "creditScore": 812,
+      "policyDuration": 1485,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.81,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 5.6,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.69,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 95,
+      "maskedCustomerId": "CUST••6810",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6827215307939503,
+      "coverageAmount": 10962.0,
+      "premiumAmount": 2847.5,
+      "deductible": 1555.05,
+      "previousClaims": 2,
+      "creditScore": 722,
+      "policyDuration": 481,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.67,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 9.37,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.73,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 96,
+      "maskedCustomerId": "CUST••7866",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6826157379341128,
+      "coverageAmount": 20115.0,
+      "premiumAmount": 4481.18,
+      "deductible": 1905.22,
+      "previousClaims": 0,
+      "creditScore": 416,
+      "policyDuration": 1313,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 8.31,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.97,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.7,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 97,
+      "maskedCustomerId": "CUST••4498",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6826138569387866,
+      "coverageAmount": 14161.0,
+      "premiumAmount": 4679.17,
+      "deductible": 1618.34,
+      "previousClaims": 0,
+      "creditScore": 464,
+      "policyDuration": 997,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.04,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.12,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 98,
+      "maskedCustomerId": "CUST••6384",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6823330431623305,
+      "coverageAmount": 16860.0,
+      "premiumAmount": 4741.29,
+      "deductible": 1453.5,
+      "previousClaims": 3,
+      "creditScore": 527,
+      "policyDuration": 56,
+      "drivingRecord": "Major Violations",
+      "reviewSignals": [
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.18,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 7.52,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Policy Duration",
+          "rawFeature": "Policy_Duration_Days",
+          "direction": "low",
+          "zScore": -1.97,
+          "label": "Policy Duration unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 99,
+      "maskedCustomerId": "CUST••0774",
+      "riskProfile": "Unlabeled",
+      "anomalyScore": 0.6821278490778495,
+      "coverageAmount": 12258.0,
+      "premiumAmount": 4136.51,
+      "deductible": 1932.15,
+      "previousClaims": 1,
+      "creditScore": 642,
+      "policyDuration": 1126,
+      "drivingRecord": "Clean",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 14.12,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 12.31,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.72,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    },
+    {
+      "rank": 100,
+      "maskedCustomerId": "CUST••3810",
+      "riskProfile": "Low",
+      "anomalyScore": 0.6820858533906075,
+      "coverageAmount": 15366.0,
+      "premiumAmount": 4393.04,
+      "deductible": 1963.91,
+      "previousClaims": 4,
+      "creditScore": 697,
+      "policyDuration": 965,
+      "drivingRecord": "Minor Violations",
+      "reviewSignals": [
+        {
+          "feature": "Deductible / Coverage Ratio",
+          "rawFeature": "Deductible_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 11.37,
+          "label": "Deductible / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Premium / Coverage Ratio",
+          "rawFeature": "Premium_Coverage_Ratio",
+          "direction": "high",
+          "zScore": 10.36,
+          "label": "Premium / Coverage Ratio unusually high"
+        },
+        {
+          "feature": "Coverage Amount",
+          "rawFeature": "Coverage Amount",
+          "direction": "low",
+          "zScore": -1.71,
+          "label": "Coverage Amount unusually low"
+        }
+      ]
+    }
+  ],
+  "reasonFrequency": {
+    "20": [
+      {
+        "feature": "Premium / Coverage Ratio",
+        "count": 20
+      },
+      {
+        "feature": "Deductible / Coverage Ratio",
+        "count": 20
+      },
+      {
+        "feature": "Coverage Amount",
+        "count": 17
+      },
+      {
+        "feature": "Policy Duration",
+        "count": 3
+      }
+    ],
+    "50": [
+      {
+        "feature": "Premium / Coverage Ratio",
+        "count": 50
+      },
+      {
+        "feature": "Deductible / Coverage Ratio",
+        "count": 50
+      },
+      {
+        "feature": "Coverage Amount",
+        "count": 43
+      },
+      {
+        "feature": "Policy Duration",
+        "count": 7
+      }
+    ],
+    "100": [
+      {
+        "feature": "Premium / Coverage Ratio",
+        "count": 100
+      },
+      {
+        "feature": "Deductible / Coverage Ratio",
+        "count": 100
+      },
+      {
+        "feature": "Coverage Amount",
+        "count": 84
+      },
+      {
+        "feature": "Policy Duration",
+        "count": 13
+      },
+      {
+        "feature": "Premium Amount",
+        "count": 2
+      },
+      {
+        "feature": "Deductible",
+        "count": 1
+      }
+    ]
+  },
+  "scoreByRiskProfile": [
+    {
+      "riskProfile": "Low",
+      "count": 54,
+      "min": 0.6820858533906075,
+      "q1": 0.6841372423526305,
+      "median": 0.6871047204675903,
+      "q3": 0.6917413089288158,
+      "max": 0.7027497117402036
+    },
+    {
+      "riskProfile": "Medium",
+      "count": 30,
+      "min": 0.6832991577021953,
+      "q1": 0.6856406884633004,
+      "median": 0.6884153588318167,
+      "q3": 0.698394987126548,
+      "max": 0.7114820635532082
+    },
+    {
+      "riskProfile": "High",
+      "count": 10,
+      "min": 0.6835543161639613,
+      "q1": 0.6893729284605419,
+      "median": 0.6991768680993731,
+      "q3": 0.7039721695033025,
+      "max": 0.7103650888285167
+    },
+    {
+      "riskProfile": "Unlabeled",
+      "count": 6,
+      "min": 0.6821278490778495,
+      "q1": 0.6832396904170943,
+      "median": 0.6843500562726805,
+      "q3": 0.6859014835061845,
+      "max": 0.6971155418944341
+    }
+  ],
+  "disclosure": "Anomaly detection identifies unusual records, not confirmed fraud."
+}

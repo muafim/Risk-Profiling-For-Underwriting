@@ -1,0 +1,43 @@
+{
+  "combinations": [
+    {
+      "name": "Original RFM 1",
+      "k": 4,
+      "silhouette": 0.2752,
+      "daviesBouldin": 1.1698,
+      "recency": "Time since last policy renewal",
+      "frequency": "Policy duration / customer tenure",
+      "monetary": "Total premium",
+      "supports": [
+        "Customer tenure",
+        "Premium contribution",
+        "Retention potential",
+        "Loyalty",
+        "Upselling opportunities"
+      ]
+    },
+    {
+      "name": "Original RFM 2",
+      "k": 3,
+      "silhouette": 0.2643,
+      "daviesBouldin": 1.3504,
+      "recency": "Time since last policy renewal",
+      "frequency": "Previous claims count",
+      "monetary": "Total premium",
+      "supports": [
+        "Claim activity",
+        "Portfolio utilization",
+        "Risk monitoring",
+        "Customer education"
+      ]
+    },
+    {
+      "name": "V2 numeric diagnostic",
+      "k": null,
+      "silhouette": 0.1124,
+      "daviesBouldin": 2.0298,
+      "differentFeatureSpace": true
+    }
+  ],
+  "comparisonNote": "The V2 numeric clustering diagnostic uses a different feature space and is shown only as a consistency check."
+}

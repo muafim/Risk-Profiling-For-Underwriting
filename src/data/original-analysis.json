@@ -1,0 +1,51 @@
+{
+  "workflow": [
+    "Data Understanding",
+    "Preprocessing",
+    "Feature Engineering",
+    "Classification",
+    "Evaluation"
+  ],
+  "engineeredFeatures": [
+    "Premium / Coverage Ratio",
+    "Deductible / Coverage Ratio",
+    "Premium / Age Ratio",
+    "Age × Credit Score",
+    "Policy Duration",
+    "Policy Start Year / Month"
+  ],
+  "experiments": [
+    {
+      "name": "Random Forest majority-collapse",
+      "accuracy": 0.6,
+      "macroF1": 0.25,
+      "recall": {
+        "Low": 1.0,
+        "Medium": 0.0,
+        "High": 0.0
+      },
+      "interpretation": "The model predicts almost every validation record as Low Risk."
+    },
+    {
+      "name": "Random Forest stratified/random",
+      "accuracy": 0.33,
+      "macroF1": 0.33,
+      "recall": {
+        "Low": 0.35,
+        "Medium": 0.34,
+        "High": 0.31
+      },
+      "interpretation": "More even class predictions reduce accuracy to roughly one-third."
+    }
+  ],
+  "eda": {
+    "headline": "Feature distributions show weak class separation and limited discriminatory signal.",
+    "points": [
+      "Numerical distributions are broadly symmetric in the supplied study.",
+      "Assigned risk groups overlap heavily across available predictors.",
+      "Numerical correlations with the encoded target are extremely small.",
+      "Categorical variables provide little visible separation."
+    ],
+    "maxAbsoluteNumericCorrelation": 0.006001904996655449
+  }
+}

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+tmp/
+.vite/
+
+# Raw customer-level data must not be published.
+Insurance Data.xlsx
+manual_review_candidates_v2.csv
+
+# Local tooling
+*.log
+.DS_Store
+Thumbs.db

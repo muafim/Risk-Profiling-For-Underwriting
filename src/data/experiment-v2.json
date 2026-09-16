@@ -1,0 +1,35 @@
+{
+  "shuffleTest": [
+    {
+      "metric": "Balanced Accuracy",
+      "real": 0.3325,
+      "shuffled": 0.333
+    },
+    {
+      "metric": "Macro-F1",
+      "real": 0.2986,
+      "shuffled": 0.3
+    }
+  ],
+  "smotenc": {
+    "trainingSubsample": 45000,
+    "balancedRows": 80934,
+    "rowsPerClass": 26978,
+    "balancedAccuracy": 0.3332748321717213,
+    "macroF1": 0.2499006979796209,
+    "originalIssue": "BorderlineSMOTE output was created, but downstream models used the original training arrays."
+  },
+  "verdict": "The available predictors do not provide enough stable information to reliably distinguish Low, Medium, and High Risk Profile labels.",
+  "clusteringDiagnostic": {
+    "method": "MiniBatch K-Means on standardized numeric underwriting features",
+    "silhouetteRange": [
+      0.0671,
+      0.1124
+    ],
+    "bestSilhouette": 0.1124,
+    "daviesBouldinRange": [
+      2.0298,
+      2.7379
+    ]
+  }
+}

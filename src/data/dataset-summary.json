@@ -1,0 +1,63 @@
+{
+  "totalRecords": 150000,
+  "labeledRecords": 142500,
+  "unlabeledRecords": 7500,
+  "riskClasses": [
+    {
+      "label": "Low",
+      "count": 85428,
+      "share": 0.5994947368421053,
+      "color": "#2563EB"
+    },
+    {
+      "label": "Medium",
+      "count": 42678,
+      "share": 0.29949473684210526,
+      "color": "#D97706"
+    },
+    {
+      "label": "High",
+      "count": 14394,
+      "share": 0.10101052631578947,
+      "color": "#C62828"
+    }
+  ],
+  "majorityClass": {
+    "label": "Low",
+    "count": 85428,
+    "share": 0.5994947368421053,
+    "color": "#2563EB"
+  },
+  "featureCount": 29,
+  "topNumericCorrelations": [
+    {
+      "feature": "Coverage Amount",
+      "correlation": -0.006001904996655449
+    },
+    {
+      "feature": "Credit Score",
+      "correlation": -0.005371796991861561
+    },
+    {
+      "feature": "Premium Amount",
+      "correlation": 0.004400065559933403
+    },
+    {
+      "feature": "Age",
+      "correlation": 0.004205111566878155
+    },
+    {
+      "feature": "Interactions with Customer Service",
+      "correlation": -0.0026586868955215093
+    },
+    {
+      "feature": "Deductible",
+      "correlation": 0.0007282395907049716
+    },
+    {
+      "feature": "Previous Claims History",
+      "correlation": -0.0003015188678747554
+    }
+  ],
+  "sourceSheet": "Insurance Data 150k"
+}

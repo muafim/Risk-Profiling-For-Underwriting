@@ -1,0 +1,167 @@
+{
+  "permutation": [
+    {
+      "feature": "Policy_Duration_Days",
+      "gain": 7803.874554514885,
+      "split": 882,
+      "permutation_macro_f1_drop_mean": 0.009054054302192,
+      "permutation_std": 0.0073881543287759,
+      "label": "Policy Duration"
+    },
+    {
+      "feature": "Gender",
+      "gain": 780.6817297935486,
+      "split": 99,
+      "permutation_macro_f1_drop_mean": 0.0022636454399109,
+      "permutation_std": 0.0023401657511094,
+      "label": "Gender"
+    },
+    {
+      "feature": "Marital Status",
+      "gain": 834.7161796092987,
+      "split": 99,
+      "permutation_macro_f1_drop_mean": 0.0022412800111177,
+      "permutation_std": 0.005369896632136,
+      "label": "Marital Status"
+    },
+    {
+      "feature": "Policy_Start_Year",
+      "gain": 480.7981796264648,
+      "split": 53,
+      "permutation_macro_f1_drop_mean": 0.0016376585760247,
+      "permutation_std": 0.0026941237197697,
+      "label": "Policy Start Year"
+    },
+    {
+      "feature": "Customer Preferences",
+      "gain": 872.5683805942535,
+      "split": 99,
+      "permutation_macro_f1_drop_mean": 0.0013798933586972,
+      "permutation_std": 0.0029837960030476,
+      "label": "Customer Preferences"
+    },
+    {
+      "feature": "Deductible",
+      "gain": 6443.485430717468,
+      "split": 787,
+      "permutation_macro_f1_drop_mean": 0.0007381416545814,
+      "permutation_std": 0.0038330363042701,
+      "label": "Deductible"
+    },
+    {
+      "feature": "Driving Record",
+      "gain": 1310.978398323059,
+      "split": 159,
+      "permutation_macro_f1_drop_mean": 0.0004938081941806,
+      "permutation_std": 0.0027060189284866,
+      "label": "Driving Record"
+    },
+    {
+      "feature": "Age_Credit_Interaction",
+      "gain": 5732.202466845512,
+      "split": 672,
+      "permutation_macro_f1_drop_mean": 9.152991185700232e-05,
+      "permutation_std": 0.0054635207047645,
+      "label": "Age Credit Interaction"
+    },
+    {
+      "feature": "Segmentation Group",
+      "gain": 1585.9658694267273,
+      "split": 191,
+      "permutation_macro_f1_drop_mean": -0.0004062631872839,
+      "permutation_std": 0.0040520777536141,
+      "label": "Segmentation Group"
+    },
+    {
+      "feature": "Credit Score",
+      "gain": 7112.698923110962,
+      "split": 831,
+      "permutation_macro_f1_drop_mean": -0.0005126193052975,
+      "permutation_std": 0.0032474867261574,
+      "label": "Credit Score"
+    }
+  ],
+  "gain": [
+    {
+      "feature": "Policy_Duration_Days",
+      "gain": 7803.874554514885,
+      "split": 882,
+      "permutation_macro_f1_drop_mean": 0.009054054302192,
+      "permutation_std": 0.0073881543287759,
+      "label": "Policy Duration"
+    },
+    {
+      "feature": "Credit Score",
+      "gain": 7112.698923110962,
+      "split": 831,
+      "permutation_macro_f1_drop_mean": -0.0005126193052975,
+      "permutation_std": 0.0032474867261574,
+      "label": "Credit Score"
+    },
+    {
+      "feature": "Deductible",
+      "gain": 6443.485430717468,
+      "split": 787,
+      "permutation_macro_f1_drop_mean": 0.0007381416545814,
+      "permutation_std": 0.0038330363042701,
+      "label": "Deductible"
+    },
+    {
+      "feature": "Premium Amount",
+      "gain": 5939.636838674545,
+      "split": 687,
+      "permutation_macro_f1_drop_mean": -0.0061404892409753,
+      "permutation_std": 0.0053579685160258,
+      "label": "Premium Amount"
+    },
+    {
+      "feature": "Premium_Age_Ratio",
+      "gain": 5900.736756801605,
+      "split": 673,
+      "permutation_macro_f1_drop_mean": -0.009434004253994,
+      "permutation_std": 0.0106528345868994,
+      "label": "Premium Age Ratio"
+    },
+    {
+      "feature": "Age_Credit_Interaction",
+      "gain": 5732.202466845512,
+      "split": 672,
+      "permutation_macro_f1_drop_mean": 9.152991185700232e-05,
+      "permutation_std": 0.0054635207047645,
+      "label": "Age Credit Interaction"
+    },
+    {
+      "feature": "Coverage Amount",
+      "gain": 5655.919790863991,
+      "split": 664,
+      "permutation_macro_f1_drop_mean": -0.0177091658661905,
+      "permutation_std": 0.0088199974357878,
+      "label": "Coverage Amount"
+    },
+    {
+      "feature": "Deductible_Coverage_Ratio",
+      "gain": 4726.7326065301895,
+      "split": 564,
+      "permutation_macro_f1_drop_mean": -0.0198800871805073,
+      "permutation_std": 0.0069206789122142,
+      "label": "Deductible / Coverage Ratio"
+    },
+    {
+      "feature": "Premium_Coverage_Ratio",
+      "gain": 4536.489426136017,
+      "split": 539,
+      "permutation_macro_f1_drop_mean": -0.0019775770180536,
+      "permutation_std": 0.0085139619027815,
+      "label": "Premium / Coverage Ratio"
+    },
+    {
+      "feature": "Age",
+      "gain": 3991.902577519417,
+      "split": 477,
+      "permutation_macro_f1_drop_mean": -0.0011880765595083,
+      "permutation_std": 0.0052080435213909,
+      "label": "Age"
+    }
+  ],
+  "disclaimer": "A feature appearing at the top of this ranking does not mean it is a strong underwriting risk driver. Overall model discrimination remains near chance level."
+}

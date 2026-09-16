@@ -1,0 +1,39 @@
+{
+  "insights": [
+    {
+      "number": "01",
+      "title": "Class imbalance distorts accuracy",
+      "body": "59.95% of labeled records are Low Risk, so majority-only prediction reaches the same accuracy."
+    },
+    {
+      "number": "02",
+      "title": "Balanced performance stays near chance",
+      "body": "The highest observed balanced accuracy is 34.15%, only 0.81% above the three-class reference."
+    },
+    {
+      "number": "03",
+      "title": "Shuffled labels perform almost identically",
+      "body": "Real-label and shuffled-target three-fold validation differ by less than two-tenths of a percentage point."
+    },
+    {
+      "number": "04",
+      "title": "Oversampling does not recover signal",
+      "body": "Corrected SMOTENC still returns approximately one-third balanced accuracy."
+    },
+    {
+      "number": "05",
+      "title": "Feature importance is weak and uncertain",
+      "body": "The largest permutation effect is only 0.0091 ± 0.0074 macro-F1."
+    },
+    {
+      "number": "06",
+      "title": "Customer clusters overlap",
+      "body": "Both original RFM variants have silhouette scores below 0.28, and the V2 numeric diagnostic is weaker."
+    },
+    {
+      "number": "07",
+      "title": "Anomaly screening still supports review",
+      "body": "100 unusual profiles are ranked for human inspection without treating anomaly as fraud."
+    }
+  ]
+}
