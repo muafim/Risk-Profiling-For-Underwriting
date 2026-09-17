@@ -1,5 +1,5 @@
 import * as ReactEChartsCoreModule from "echarts-for-react/lib/core";
-import type { ComponentType } from "react";
+import { useEffect, useRef, type ComponentType, type CSSProperties, type Ref } from "react";
 import * as echarts from "echarts/core";
 import { BarChart, BoxplotChart, CustomChart, ScatterChart } from "echarts/charts";
 import { AriaComponent, GridComponent, LegendComponent, MarkLineComponent, TooltipComponent } from "echarts/components";
@@ -8,10 +8,34 @@ import type { ImportanceRow, ModelMetric, RiskClass } from "../../types/dashboar
 
 echarts.use([BarChart, BoxplotChart, CustomChart, ScatterChart, AriaComponent, GridComponent, LegendComponent, MarkLineComponent, TooltipComponent, CanvasRenderer]);
 
-type ChartProps = { option: object; style?: object; "aria-label"?: string };
-const coreModule = ReactEChartsCoreModule as unknown as { default?: { default?: ComponentType<ChartProps & { echarts: typeof echarts }> } | ComponentType<ChartProps & { echarts: typeof echarts }> };
-const ReactEChartsCore = ((typeof coreModule.default === "object" && coreModule.default?.default) || coreModule.default || ReactEChartsCoreModule) as ComponentType<ChartProps & { echarts: typeof echarts }>;
-const Chart = (props: ChartProps) => <ReactEChartsCore echarts={echarts} {...props} />;
+type ChartProps = { option: object; className?: string; "aria-label"?: string };
+type ChartHandle = { getEchartsInstance: () => { resize: () => void } };
+type CoreChartProps = Omit<ChartProps, "className"> & { echarts: typeof echarts; ref?: Ref<ChartHandle>; style?: CSSProperties };
+const coreModule = ReactEChartsCoreModule as unknown as { default?: { default?: ComponentType<CoreChartProps> } | ComponentType<CoreChartProps> };
+const ReactEChartsCore = ((typeof coreModule.default === "object" && coreModule.default?.default) || coreModule.default || ReactEChartsCoreModule) as ComponentType<CoreChartProps>;
+
+function Chart({ className, ...props }: ChartProps) {
+  const shellRef = useRef<HTMLDivElement>(null);
+  const chartRef = useRef<ChartHandle>(null);
+
+  useEffect(() => {
+    const shell = shellRef.current;
+    if (!shell) return;
+    let frame = 0;
+    const observer = new ResizeObserver(() => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(() => chartRef.current?.getEchartsInstance().resize());
+    });
+    observer.observe(shell);
+    return () => { cancelAnimationFrame(frame); observer.disconnect(); };
+  }, []);
+
+  return (
+    <div ref={shellRef} className={className}>
+      <ReactEChartsCore ref={chartRef} echarts={echarts} style={{ width: "100%", height: "100%" }} {...props} />
+    </div>
+  );
+}
 
 const text = "#111827";
 const muted = "#667085";
@@ -24,6 +48,7 @@ const orange = "#D97706";
 const tooltip = {
   backgroundColor: "#111827",
   borderWidth: 0,
+  confine: true,
   textStyle: { color: "#fff", fontFamily: "Inter, system-ui, sans-serif" },
   padding: [10, 12],
 };
@@ -33,11 +58,11 @@ export function RiskDistributionChart({ data }: { data: RiskClass[] }) {
     <div>
       <Chart
         aria-label="Horizontal stacked bar showing the labeled Risk Profile distribution"
-        style={{ height: 150 }}
+        className="chart chart--risk"
         option={{
           animationDuration: 700,
           tooltip: { ...tooltip, trigger: "item", formatter: (p: { name: string; value: number }) => `${p.name}<br/><b>${(p.value * 100).toFixed(2)}%</b>` },
-          grid: { left: 0, right: 0, top: 20, bottom: 42 },
+          grid: { left: 0, right: 0, top: 20, bottom: 42, containLabel: true },
           xAxis: { type: "value", max: 1, show: false },
           yAxis: { type: "category", data: ["Labeled records"], show: false },
           series: data.map((item) => ({
@@ -69,7 +94,7 @@ export function ModelComparisonChart({ models, reference }: { models: ModelMetri
   return (
     <Chart
       aria-label="Grouped horizontal bar chart comparing accuracy, balanced accuracy, and macro-F1 across six models"
-      style={{ height: 470 }}
+      className="chart chart--model"
       option={{
         tooltip: {
           ...tooltip,
@@ -81,7 +106,7 @@ export function ModelComparisonChart({ models, reference }: { models: ModelMetri
           },
         },
         legend: { top: 0, left: 0, textStyle: { color: muted }, itemWidth: 12, itemHeight: 12 },
-        grid: { left: 196, right: 28, top: 60, bottom: 28 },
+        grid: { left: 138, right: 20, top: 60, bottom: 28, containLabel: true },
         xAxis: {
           type: "value",
           min: 0,
@@ -93,7 +118,7 @@ export function ModelComparisonChart({ models, reference }: { models: ModelMetri
           type: "category",
           inverse: true,
           data: sorted.map((m) => m.model),
-          axisLabel: { color: text, width: 176, overflow: "break", lineHeight: 16 },
+          axisLabel: { color: text, width: 124, overflow: "break", lineHeight: 15 },
           axisLine: { show: false },
           axisTick: { show: false },
         },
@@ -123,10 +148,10 @@ export function ShuffleComparisonChart({ data }: { data: Array<{ metric: string;
   return (
     <Chart
       aria-label="Paired dot chart comparing model metrics on real and shuffled labels"
-      style={{ height: 300 }}
+      className="chart chart--shuffle"
       option={{
         tooltip: { ...tooltip, trigger: "axis" },
-        grid: { left: 120, right: 42, top: 38, bottom: 46 },
+        grid: { left: 72, right: 24, top: 38, bottom: 46, containLabel: true },
         xAxis: {
           type: "value",
           min: 0.285,
@@ -161,16 +186,16 @@ export function FeatureImportanceChart({ rows, mode }: { rows: ImportanceRow[]; 
   return (
     <Chart
       aria-label={`${isPermutation ? "Permutation" : "Model gain"} feature importance chart for the top ten features`}
-      style={{ height: 430 }}
+      className="chart chart--importance"
       option={{
         tooltip: { ...tooltip, trigger: "axis" },
-        grid: { left: 198, right: 44, top: 24, bottom: 42 },
+        grid: { left: 142, right: 24, top: 24, bottom: 42, containLabel: true },
         xAxis: {
           type: "value",
           axisLabel: { color: muted, formatter: (v: number) => isPermutation ? v.toFixed(3) : Math.round(v).toLocaleString() },
           splitLine: { lineStyle: { color: grid } },
         },
-        yAxis: { type: "category", data: data.map((d) => d.label), axisLabel: { color: text, width: 178, overflow: "truncate" }, axisLine: { show: false }, axisTick: { show: false } },
+        yAxis: { type: "category", data: data.map((d) => d.label), axisLabel: { color: text, width: 126, overflow: "break", lineHeight: 14 }, axisLine: { show: false }, axisTick: { show: false } },
         series: [
           {
             type: "bar",
@@ -203,10 +228,10 @@ export function ClusterQualityChart({ data }: { data: Array<{ name: string; silh
   return (
     <Chart
       aria-label="Bar chart comparing silhouette scores for the two original RFM analyses and the V2 numeric diagnostic"
-      style={{ height: 300 }}
+      className="chart chart--cluster"
       option={{
         tooltip: { ...tooltip, trigger: "axis" },
-        grid: { left: 48, right: 20, top: 30, bottom: 68 },
+        grid: { left: 28, right: 16, top: 30, bottom: 68, containLabel: true },
         xAxis: { type: "category", data: data.map((d) => d.name), axisLabel: { color: muted, interval: 0, width: 112, overflow: "break", lineHeight: 15 }, axisTick: { show: false } },
         yAxis: { type: "value", max: 0.35, axisLabel: { color: muted, formatter: (v: number) => v.toFixed(2) }, splitLine: { lineStyle: { color: grid } } },
         series: [{ type: "bar", data: data.map((d, i) => ({ value: d.silhouette, itemStyle: { color: i === 2 ? orange : blue } })), barWidth: 54, label: { show: true, position: "top", formatter: (p: { value: number }) => p.value.toFixed(3), color: text, fontWeight: 800 } }],
@@ -220,12 +245,12 @@ export function ReasonFrequencyChart({ data }: { data: Array<{ feature: string; 
   return (
     <Chart
       aria-label="Horizontal bar chart showing the most frequent reasons behind anomaly review rankings"
-      style={{ height: 330 }}
+      className="chart chart--reasons"
       option={{
         tooltip: { ...tooltip, trigger: "axis" },
-        grid: { left: 196, right: 28, top: 20, bottom: 34 },
+        grid: { left: 142, right: 24, top: 20, bottom: 34, containLabel: true },
         xAxis: { type: "value", axisLabel: { color: muted }, splitLine: { lineStyle: { color: grid } } },
-        yAxis: { type: "category", data: rows.map((d) => d.feature), axisLabel: { color: text, width: 176, overflow: "truncate" }, axisLine: { show: false }, axisTick: { show: false } },
+        yAxis: { type: "category", data: rows.map((d) => d.feature), axisLabel: { color: text, width: 126, overflow: "break", lineHeight: 14 }, axisLine: { show: false }, axisTick: { show: false } },
         series: [{ type: "bar", data: rows.map((d) => d.count), barWidth: 14, itemStyle: { color: teal }, label: { show: true, position: "right", color: text, fontWeight: 700 } }],
       }}
     />
@@ -238,10 +263,10 @@ export function AnomalyBoxplotChart({ data }: { data: Array<{ riskProfile: strin
   return (
     <Chart
       aria-label="Box plot summarizing anomaly scores across existing Risk Profile categories"
-      style={{ height: 320 }}
+      className="chart chart--boxplot"
       option={{
         tooltip: { ...tooltip, trigger: "item" },
-        grid: { left: 58, right: 24, top: 28, bottom: 50 },
+        grid: { left: 36, right: 18, top: 28, bottom: 50, containLabel: true },
         xAxis: { type: "category", data: valid.map((d) => `${d.riskProfile}\nn=${d.count}`), axisLabel: { color: text, lineHeight: 16 }, axisTick: { show: false } },
         yAxis: { type: "value", min: 0.675, max: 0.715, axisLabel: { color: muted, formatter: (v: number) => v.toFixed(3) }, splitLine: { lineStyle: { color: grid } } },
         series: [{

@@ -51,29 +51,39 @@ function App() {
         <section className="hero" id="overview">
           <div className="hero-copy">
             <p className="eyebrow hero-eyebrow">Portfolio analytics case study / insurance</p>
-            <h1>INSURANCE<br />RISK<br /><span>INTELLIGENCE</span></h1>
+            <h1><span className="hero-title-line">INSURANCE</span><span className="hero-title-line">RISK</span><span className="hero-title-line hero-title-accent">INTELLIGENCE</span></h1>
             <p className="hero-subtitle">From Risk Profiling Models to Model Diagnostics and Manual Review Prioritization</p>
             <p className="hero-deck">A data science case study on underwriting risk classification, customer segmentation, model learnability, and anomaly detection.</p>
             <div className="hero-meta"><strong>{compact.format(dataset.totalRecords)} customer records</strong><span>Risk profiling · segmentation · diagnostics</span></div>
           </div>
           <div className="hero-visual" aria-label="Editorial data composition showing the class distribution and model diagnostics">
             <div className="hero-grid-label">ASSIGNED RISK PROFILE / LABELED RECORDS</div>
-            <div className="hero-risk-grid">
+            <div className="hero-risk-grid" aria-label="Risk profile distribution shown as proportional segments">
               {(dataset.riskClasses as RiskClass[]).map((item) => (
                 <div key={item.label} className={`hero-risk hero-risk--${item.label.toLowerCase()}`} style={{ flex: item.share }}>
                   <span>{item.label}</span><strong>{pct(item.share)}</strong><small>{item.count.toLocaleString()}</small>
                 </div>
               ))}
             </div>
-            <div className="hero-signal">
-              <span>HIGHEST OBSERVED<br />BALANCED ACCURACY</span>
-              <strong>{pct(highest.value)}</strong>
-              <em>only {pct(highest.distanceFromReference, 2)} above ⅓</em>
+            <div className="hero-risk-list" aria-label="Risk profile distribution shown as proportional rows">
+              {(dataset.riskClasses as RiskClass[]).map((item) => (
+                <div className={`hero-risk-row hero-risk-row--${item.label.toLowerCase()}`} key={item.label}>
+                  <div><span>{item.label}</span><strong>{pct(item.share)}</strong><small>{item.count.toLocaleString()}</small></div>
+                  <i aria-hidden="true"><b style={{ width: pct(item.share) }} /></i>
+                </div>
+              ))}
             </div>
-            <div className="hero-matrix" aria-hidden="true">
-              {Array.from({ length: 48 }, (_, i) => <span key={i} className={i % 11 === 0 || i % 17 === 0 ? "hot" : ""} />)}
+            <div className="hero-analysis-grid">
+              <div className="hero-signal">
+                <span>HIGHEST OBSERVED<br />BALANCED ACCURACY</span>
+                <strong>{pct(highest.value)}</strong>
+                <em>only {pct(highest.distanceFromReference, 2)} above ⅓</em>
+              </div>
+              <div className="hero-matrix" aria-hidden="true">
+                {Array.from({ length: 48 }, (_, i) => <span key={i} className={i % 11 === 0 || i % 17 === 0 ? "hot" : ""} />)}
+              </div>
+              <div className="hero-verdict"><span>REAL LABELS</span><GitCompareArrows size={18} /><span>SHUFFLED LABELS</span></div>
             </div>
-            <div className="hero-verdict">REAL LABELS <GitCompareArrows size={18} /> SHUFFLED LABELS</div>
           </div>
         </section>
 
@@ -134,7 +144,7 @@ function App() {
         </section>
 
         <section className="accuracy-trap" id="accuracy-trap">
-          <div className="trap-heading"><span className="section-number" aria-hidden="true">03</span><p className="eyebrow">The decisive baseline</p><h2>THE 60%<br />ACCURACY TRAP</h2></div>
+          <div className="trap-heading"><span className="section-number" aria-hidden="true">03</span><p className="eyebrow">The decisive baseline</p><h2><span>THE 60%</span><span>ACCURACY</span><span>TRAP</span></h2></div>
           <div className="trap-equation">
             <div><span>LOW RISK SHARE</span><strong>{pct(majority.share)}</strong></div>
             <b>≈</b>
